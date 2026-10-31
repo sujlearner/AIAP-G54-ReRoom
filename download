@@ -1,0 +1,7 @@
+# secrets: never upload keys
+.env
+.env.*
+*.env
+*.key
+supabase/.temp/
+supabase/.branches/

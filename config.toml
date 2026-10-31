@@ -1,0 +1,6 @@
+# Supabase settings for this function only.
+project_id = "room-makeover-function"
+
+[functions.generate-makeover]
+# Keep ON: only callers with a valid Supabase token can reach this function.
+verify_jwt = true
